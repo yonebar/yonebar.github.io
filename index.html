@@ -1,98 +1,11 @@
+<!DOCTYPE html>
 <html>
-<head>
+<script>
+    alert( 'Hello, world!' );
+</script>
 
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-    <script src="sconnect.js"></script>    
-    <script src="pcsc.js"></script>    
-    <script src="uicc.js"></script>
-
-    <style type="text/css">
-        body {font-family:Arial,Helvetica,sans-serif;}
-        table {border-collapse:collapse; font-size:12px;t able-layout:auto;}
-        td {background-color:#FFFFFF;border-color:#826E59;padding:5px;align:center;}
-        h3 {font-size:16px;color:#FFFFFF;font-weight:bold;font-variant:small-caps;margin-bottom:0px;background-color:#826E59;}
-        th {background-color:#826E59;color:#FFFFFF;padding-top:0px;margin-top:0px;}
-    </style>
-    
-    <title>UICC Sample Application</title>
-</head>
 <body>
-    <table border="0" width="800">
-        <tr width="800">
-            <td>
-                <h2>UICC Sample Application</h2>
-            <td>
-        </tr>
-        <tr>
-            <td>
-                <h3>Card Info</h3>
-                <hr/>
-                <div id="card-info-body">
-                    <table>
-                        <tr>
-                            <td style="width: 80px;"> ATR:</td>
-                            <td style="width: 300px;"><div id="atr">---</div></td>
-                        </tr>
-                        <tr>
-                            <td style="width: 80px;"> UICC:</td>
-                            <td style="width: 300px;"><div id="MF">---</div></td>
-<td style="width: 80px;">
-<input id="selectMFButton" type="submit" onclick="selectMF();" value="select MF" name="selectMFButton" />
-</td>
-                        </tr>
-                        <tr>
-                            <td style="width: 80px;"> Read EF MSISDN:</td>
-                            <td style="width: 300px;"><div id="read-result">---</div></td>
-<td style="width: 80px;">
-<input id="ReadMSISDNButton" type="submit" onclick="ReadMSISDN();" value="Read MSISDN" name="ReadMSISDNButton" />
-</td>
-                        </tr>
-                        <tr>
-                            <td style="width: 80px;"> Update MSISDN:</td>
-                            <td style="width: 300px;">
-<input id="NewMSISDN" type="text" name="NewMSISDN" size="30"/>
-</td>
-<td style="width: 80px;">
-<input id="UpdateMSISDNButton" type="submit" onclick="UpdateMSISDN();" value="Update MSISDN" name="UpdateMSISDNButton" />
-</td>
-                        </tr>
-                        <tr>
-                            <td style="width: 80px;"> Verify PIN:</td>
-                            <td style="width: 300px;">
-<input id="PIN" type="text" name="PIN" size="9" value="30303030"/>
-<td style="width: 80px;">
-<input id="VerifyPINButton" type="submit" onclick="VerifyPIN();" value="Verify PIN" name="VerifyPIN"/>
-</td>
-                        </tr>
-                        <tr>
-                            <td style="width: 80px;"> Verify PIN Result:</td>
-                            <td style="width: 300px;">
-<div id="verify-pin">---</div></td>
-</td>
-                        </tr>
-
-                        <tr>
-                            <td style="width: 80px;">PIN Unblock:</td>
-                            <td style="width: 300px;">
-<input id="PUK" type="text" name="PUK" size="19" value="3132333435363738"/>
-<td style="width: 80px;">
-<input id="PINUnblockButton" type="submit" onclick="PINUnblock();" value="PIN Unblock" name="PINUnblock"/>
-</td>
-                        </tr>
-                        <tr>
-                            <td style="width: 80px;"> PIN Unblock Result:</td>
-                            <td style="width: 300px;">
-<div id="pin-unblock">---</div></td>
-</td>
-                        </tr>
-
-                    </table>
-                    <br>
-                </div>
-            </td>
-        </tr>    
-    </table> 
-
+<h1>Hello World</h1>
+<p>I'm hosted with GitHub Pages.</p>
 </body>
 </html>
